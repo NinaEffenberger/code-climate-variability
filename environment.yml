@@ -1,0 +1,20 @@
+name: evaluation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11  
+  - cartopy=0.25.0
+  - cftime=1.6.4
+  - matplotlib=3.10.8
+  - netcdf4=1.7.2
+  - numpy=2.4.4
+  - pandas=3.0.1
+  - scipy=1.17.1
+  - seaborn=0.13.2
+  - statsmodels=0.14.4
+  - xarray=2025.3.1
+  - pip
+  - pip:
+    - python_cmethods==2.3.1
+
